@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        "geist": ["Geist", "sans-serif"],
+      },
       colors: {
         chromatic: {
           white: "#ECECEC",

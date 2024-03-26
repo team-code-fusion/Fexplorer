@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Geist;
+  src: url(/fonts/geist.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  @apply bg-chromatic-gray-900 rounded-2xl p-4; 
+  @apply bg-chromatic-gray-900 font-geist rounded-2xl p-4 h-full w-full border-solid border-2 border-chromatic-gray-700; 
 }
