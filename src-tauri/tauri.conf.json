@@ -12,9 +12,8 @@
   "tauri": {
     "allowlist": {
       "all": false,
-      "shell": {
-        "all": false,
-        "open": true
+      "window": {
+        "all": true
       }
     },
     "windows": [
@@ -33,7 +32,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "codefuzion",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
